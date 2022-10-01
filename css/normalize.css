@@ -39,7 +39,7 @@
   
   h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: auto;
   }
   
   /* Grouping content
@@ -339,11 +339,10 @@
   template {
     display: none;
   }
-  
-  /**
-   * Add the correct display in IE 10.
-   */
+
   
   [hidden] {
     display: none;
   }
+
+
