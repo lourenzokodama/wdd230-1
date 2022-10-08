@@ -13,7 +13,7 @@
 
     .site-logo {
         max-width: 90px;
-        float: right;
+        flex: right;
       }
 }
 

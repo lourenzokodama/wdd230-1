@@ -68,7 +68,7 @@ header img {
 
 /* Centered section inside the top navigation */
 .nav-centered a {
-  float: none;
+  flex: none;
   position: absolute;
   top: 50%;
   left: 50%;
