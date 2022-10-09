@@ -8,3 +8,7 @@ function toggleMenu(){
 const ham = document.getElementById("hamburgerBtn");
 
 ham.onclick = toggleMenu;
+
+
+const date = new Date(document.lastModified);
+document.getElementById("updateDate").innerHTML = document.lastModified;
