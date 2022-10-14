@@ -1,0 +1,18 @@
+@media only screen and (min-width: 54rem) {
+    nav button {
+      display: none;
+    }
+
+    nav ul#primaryNav {
+      display: flex;
+      border-left: 1px solid rgb(11, 33, 19);
+      justify-content: flex-start; 
+    }
+    
+    nav ul li a {
+      border: none;
+      border-right: 1px solid rgba(3, 3, 3, 0.4);
+      padding: 0.5rem 1rem;
+      background-color: var(--color2); 
+    }
+  }
