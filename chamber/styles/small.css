@@ -255,3 +255,9 @@
   .event-image {
     max-width: 5em;
   }
+
+  .general-class {
+    font-size: 2rem;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
