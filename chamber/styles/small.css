@@ -1,4 +1,4 @@
-html {
+  html {
     --color1: #ffffff;
     --color2: #ffffff;
     --color3: #0d2809;
@@ -85,7 +85,10 @@ html {
     padding-top: 2em;
     margin-left: 0.1rem;
     overflow: hidden;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
 
   /* .social:hover {
@@ -139,7 +142,7 @@ html {
   }
   .headings1 {
     font-size: 0.8rem;
-    margin-top: -0.4rem;
+    margin-top: -0.8rem;
     overflow: hidden;
   }
   .headings2 {
@@ -175,7 +178,7 @@ html {
     padding: 2vh;
   }
   
-  footer .address {
+  /* footer .address {
     margin-top: 1rem;
   } */
   /* footer .address1 {
@@ -213,8 +216,8 @@ html {
   
   .find-us {
     display: grid;
-    /* grid-template-columns: 1fr 2fr 1fr 1f 2fr; */
-    /* font-size: 0.5rem; */
+    grid-template-columns: 1fr 2fr 1fr 1f 2fr;
+    font-size: 0.5rem;
     margin: 1rem;
     padding: 1rem;
     background-color: var(--color4);
@@ -226,12 +229,12 @@ html {
     display: grid;
     /* grid-template-columns: 1fr 2fr 1fr 1f 2fr; */
     /* font-size: 0.5rem; */
-    margin: 1rem;
+    /* margin: 1rem;
     padding: 1rem;
     background-color: var(--color4);
     color: var(--color5);
     margin-top: 2rem;
-  }
+  } */
 
   .about {
     padding-top: 1.3rem;
@@ -239,4 +242,16 @@ html {
     margin: 1rem;
     display: flex;
     overflow: hidden;
+  }
+
+  .main-image {
+    /* min-width: 200px; */
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+  .event-image {
+    max-width: 5em;
   }
