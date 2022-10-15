@@ -24,7 +24,6 @@ main {
 	padding: 0.5rem;
 	background-color: rgb(181, 195, 241);
 	display: grid;
-	grid-template-columns: 1fr;
 	width: 95%;
 }
 
