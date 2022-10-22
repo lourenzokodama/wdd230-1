@@ -14,7 +14,7 @@
   <body>
     <header>
       <img 
-      src="images/trees.png" 
+      src="images/trees.webp" 
       alt="Bend Chamber Logo"
       class="logo">
 
@@ -58,21 +58,17 @@
         <p id="general-class">December 1, 2022</p>
         <p id="general-class">Learn More</p>
       </div>
-        <picture>
-          <source
-            media="(min-width: 1024px)"
-            srcset="images/smalltown.jpg"
-          />
-          <source
-            media="(min-width: 480px)"
-            srcset="images/smalltown.jpg"
-          />
-          <img
-            class="main-image"
-            src="images/smalltown.jpg"
-            alt="bend front image"
-          />
+      <section class="hero">
+        <picture class="hero">
+                <source media="(max-width: 500px)"
+                        srcset="images/wdd230small.webp">
+                <source media="(max-width: 600px)"
+                        srcset="images/wdd230medium.webp">
+                <source media="(max-width: 2000px)"
+                        srcset="images/wdd230-org.webp">
+                <img src="images/wdd230-org.webp" alt="original-picture">
         </picture>
+      </section>
         <!-- <img src="images/bend-logo2.png" alt="bend1"> -->
       <div class="event-class">
         <h3>Events</h3>
@@ -87,6 +83,9 @@
           <img class="event-image" src="images/weather.jpg" alt="icon of expected weather" />
         </picture>
         <p id="general-class">Latest weather in Central Oregon</p>
+        <p>Current Temperature: <span id="temp"></span></p>
+        <p>Wind Speed: <span id="speed"></span></p>
+        <p>Wind Chill: <span id="chill"></span></p>
       </div>
       <div class="news">News
         <h3>Event</h3>
@@ -165,6 +164,7 @@
         <label>Last Modification: <a id= "updateDate"></a></label>
 
         <script src="scripts/scripts.js"></script>
+        <script src="scripts/windchill.js"></script>
       </div>
     </footer>
   </body>

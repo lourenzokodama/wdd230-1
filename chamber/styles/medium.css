@@ -101,6 +101,11 @@
       max-width: 10em;
       overflow: hidden;
     }
+    .hero {
+      object-fit:cover;
+      height: 100%;
+      width: 100%;
+    }  
   }
 
 
