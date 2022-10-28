@@ -1,0 +1,19 @@
+.pictures{
+    display: grid;
+    grid-gap: 3px;
+    justify-items: center;
+}
+img[data-src] {
+    filter: blur(0.2em);
+}
+img {
+    min-width: 50px;
+    min-height: 50px;
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+.updateDate{
+    text-align: left;
+}
+

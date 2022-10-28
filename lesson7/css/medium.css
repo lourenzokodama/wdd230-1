@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em) {
+    h1{
+        font-size: 3em;
+      }  
+
+    h2 {
+        font-size: 2em;
+    }   
+    
+    header, footer {
+        border-radius: 10px;
+        
+    }
+
+    .site-logo {
+        max-width: 90px;
+        float: right;
+      }
+}
+
+.font1 {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .font2 {
+    font-family: 'Oswald', sans-serif Lite 300;
+  }
+  .font3 {
+    font-family: 'Oswald', sans-serif;
+  }
+  .font4 {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .bendcover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
