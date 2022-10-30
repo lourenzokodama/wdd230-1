@@ -268,3 +268,10 @@
     height: 100%;
     width: 100%;
   }  
+
+  .discover {
+    align-items: center;
+    border: none;
+    margin-top: 2em;
+    max-width: 400px;
+  }
