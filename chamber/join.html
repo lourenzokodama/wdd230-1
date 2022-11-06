@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
-    <link rel="stylesheet" href="styles/robot.css" />
-    <script src="js/scripts.js" defer></script>
-    </head>
-    <body>
+    <!-- <link rel="stylesheet" href="styles/robot.css" /> -->
+
+</head>
+  <body>
     <header>
         <img 
         src="images/trees.png" 
@@ -48,15 +48,119 @@
             <li><a href="events.html">Events</a></li>
         </ul>
         </nav>
-        <div class="headerDate">Insert Date Here</div>
+      <div class="headerDate">Saturday, November 5, 2022</div>
     </header>
-    
-    <nav>
-        <div class="robot1"></div>
-        <div class="robot2"></div>
-        <div class="robot3"></div>
-        <div class="robot4"></div>
-    </nav>
+      <main id="joinPage">
+        <form method="get" action="thankyou.html">
+          <fieldset>
+            <legend>Contact Information</legend>
+
+            <label class="top"
+              >First Name* <input type="text" name="fName" required
+            /></label>
+            <label class="top"
+              >Last Name* <input type="text" name="lName" required /></label
+            ><label class="top"
+              >Position or Title<input
+                type="text"
+                name="title"
+                pattern="[A-Za-z\s\-]{7,}"
+                title="minimum length of 7 characters" /></label
+            ><label class="top"
+              >Email<input
+                type="email"
+                name="email"
+                required
+                placeholder="johnsmith@abc.com" /></label
+            ><label class="top"
+              >Cell Phone*<input type="tel" name="cell" required
+            /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Business Information</legend>
+
+            <label class="top">
+              Business Name*<input type="text" name="busName" required
+            /></label>
+            <label class="top"
+              >Business Description
+              <textarea name="bDescription" rows="4"></textarea>
+            </label>
+
+            <input type="hidden" name="formDate" id="formDate" />
+          </fieldset>
+          <fieldset>
+            <legend>Membership Level</legend>
+            <div class="memberLevel">
+              <label class="sbs"
+                ><input type="radio" name="membership" value="1" />Non Profit
+              </label>
+              <div class="membership">
+                <ul>
+                  <li>Become a member of Bend Chamber of Commerce for free</li>
+                  <li>Attend Public Events - Get Reminders</li>
+                  <li>Access to general Chamber meetings</li>
+                </ul>
+              </div>
+            </div>
+            <div class="memberLevel">
+              <label class="sbs"
+                ><input type="radio" name="membership" value="2" />Bronze
+              </label>
+              <div class="membership">
+                <ul>
+                  <li>$5/Month</li>
+                  <li>Special Access</li>
+                  <li>Chamber pin and newletters</li>
+                  <li>Name posted in membership list!</li>
+                </ul>
+              </div>
+            </div>
+            <div class="memberLevel">
+              <label class="sbs"
+                ><input type="radio" name="membership" value="3" />Silver
+              </label>
+              <div class="membership">
+                <ul>
+                  <li>$10/month</li>
+                  <li>Special Access</li>
+                  <li>Chamber pin and newletters</li>
+                  <li>Name posted in membership list</li>
+                  <li>Invitation to bi-annual banquet</li>
+                  <li>Opportunity to participate in chamber votes</li>
+                </ul>
+              </div>
+            </div>
+            <div class="memberLevel">
+              <label class="sbs"
+                ><input type="radio" name="membership" value="4" />Gold
+              </label>
+              <div class="membership">
+                <ul>
+                  <li>$15/month</li>
+                  <li>Special Access</li>
+                  <li>Chamber gold pin and newletters</li>
+                  <li>Name posted in membership list</li>
+                  <li>Invitation to bi-annual banquet</li>
+                  <li>Opportunity to participate in chamber votes</li>
+                  <li>Name added to city display after 10 years gold</li>
+                  <li>Christmas Party Invite</li>
+                </ul>
+              </div>
+            </div>
+          </fieldset>
+          <input
+            type="submit"
+            name="btnSubmit"
+            value="Join Chamber"
+            id="btnJoin"
+          />
+        </form>
+      </main>
+      <script src="scripts/scripts.js"></script>
+      <script src="scripts/windchill.js"></script>
+      <script src="scripts/lazyloading.js"></script>
+  </body>
     <footer>
         <img src="images/trees.png" class="logo" alt="trees logo" />
        

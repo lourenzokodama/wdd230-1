@@ -42,7 +42,7 @@
   }
 
   main {
-    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-columns: 1fr 2fr 1fr; */
   }
   .event {
     grid-column: 1;
@@ -86,7 +86,7 @@
   }
   .main-image {
     /* min-width: 800px; */
-    max-width: 800px; 
+    /* max-width: 800px;  */
   }
   .event-image {
     max-width: auto;
@@ -107,6 +107,22 @@
   }
   .placeholder {
     text-align: center;
+  }
+
+   /* join page  */
+
+   #joinPage form fieldset {
+    max-width: 200rem;
+  }
+  #joinPage .memberLevel {
+    display: flex;
+  }
+  #joinPage .membership {
+    display: inline;
+  }
+  #joinPage .memberLevel label.sbs {
+    width: 10rem;
+    display: inline-block;
   }
   
 }
