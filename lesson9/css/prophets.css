@@ -1,0 +1,34 @@
+body {
+    max-width: 1500px;
+    margin: auto;
+  }
+  header,
+  footer {
+    text-align: center;
+    padding: 1.2em;
+  }
+  main {
+    margin: 1.2rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  .cards section {
+    text-align: center;
+    background-color: rgb(124, 164, 122);
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 1px rgb(16, 14, 14);
+    overflow: hidden;
+  }
+  
+  .cards section img {
+    max-width: 320px;
+    max-height: 320px;
+    padding-bottom: 1.2em;
+  }
