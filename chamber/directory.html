@@ -9,11 +9,10 @@
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
-    <link rel="stylesheet" href="styles/robot.css" />
-    <script src="js/scripts.js" defer></script>
+
     </head>
     <body>
-    <header>
+      <header>
         <img 
         src="images/trees.png" 
         alt="Bend Chamber Logo"
@@ -21,23 +20,23 @@
 
         <div class="headings">
         <h1 class="headings1">Bend Chamber of Commerce</h1>
-        <h2 class="headings2">Onboard into the heart of Oregon</h2>
+    
         </div>
         <div class="social" id="facebook">
-        <a href="https://facebook.com" target="_blank">
+          <a href="https://facebook.com" target="_blank">
             <img
-            src="https://cdn.glitch.global/1709e8e9-fc12-4372-978e-8d6ce7842970/facebook.png?v=1643511083827"
-            alt="Facebook Icon"
+              src="images/facebook.png"
+              alt="Facebook Icon"
             />
-        </a>
+          </a>
         </div>
         <div class="social" id="instagram">
-        <a href="http://instagram.com" target="_blank">
+          <a href="http://instagram.com" target="_blank">
             <img
-            src="https://cdn.glitch.global/1709e8e9-fc12-4372-978e-8d6ce7842970/instagram.png?v=1643511087990"
-            alt="Instagram Icon"
+              src="images/instagram.png"
+              alt="Instagram Icon"
             />
-        </a>
+          </a>
         </div>
         <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -48,19 +47,17 @@
             <li><a href="events.html">Events</a></li>
         </ul>
         </nav>
-        <div class="headerDate">Insert Date Here</div>
+      <div class="headerDate">Saturday, November 12, 2022</div>
     </header>
     
-    <nav>
-        
-    </nav>
-    <main>
-        <div class="robot1"></div>
-        <div class="robot2"></div>
-        <div class="robot3"></div>
-        <div class="robot4"></div>
-    </main>
-
+    <main id="directory">
+      <div class="buttons">
+          <button id="grid">Grid</button>
+          <button id="list">List</button>
+      </div>
+      <div class="grid">
+      </div>
+  </main>
     <footer>
         <img src="images/trees.png" class="logo" alt="trees logo" />
        
@@ -85,3 +82,10 @@
           <h5 id="last-update"></h5>
         </div>
       </footer>
+
+      <script src="scripts/scripts.js" defer></script>
+      <script src="scripts/directory.js" defer></script>
+      <script src="scripts/lastvisit.js" defer></script>
+      <!-- <script src="scripts/lazyloading.js" defer></script> -->
+    </body>
+  </html>

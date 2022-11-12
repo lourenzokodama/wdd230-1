@@ -91,15 +91,6 @@
     width: 90%;
   }
 
-  /* .social:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-
-  .social.active a {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: whitesmoke;
-  } */
-
   #facebook {
     padding: 0.5em;
     grid-row: 1;
@@ -152,7 +143,7 @@
   }
   main div {
     min-width: 20vw;
-    min-height: 25vh;
+    min-height: auto;
     border: 1px solid;
     margin: 1vh;
     padding: 2vh;
@@ -177,64 +168,6 @@
     margin: 1vh;
     padding: 2vh;
   }
-  
-  /* footer .address {
-    margin-top: 1rem;
-  } */
-  /* footer .address1 {
-    margin-top: 1rem;
-  }
-  
-  footer .address2 {
-    margin-top: 1rem;
-  }
-   */
-  /* footer .phone {
-    margin-top: -1rem;
-  }
-  footer .map {
-    margin-top: -1rem;
-  }
-  footer hr {
-    padding: 2vh;
-    background-color: var(--color5);
-  }
-  footer .seperator {
-    display: none;
-  }
-  .about {
-    padding-top: 1.3rem;
-    border-top: var(--color1) solid 1px;
-    margin: 1rem;
-    display: flex;
-    overflow: hidden;
-  }
-  
-  #last-update {
-    padding-bottom: 0.5rem;
-  }
-  
-  .find-us {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1f 2fr;
-    font-size: 0.5rem;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: var(--color4);
-    color: var(--color5);
-    margin-top: 2rem;
-  }
-
-  .address {
-    display: grid;
-    /* grid-template-columns: 1fr 2fr 1fr 1f 2fr; */
-    /* font-size: 0.5rem; */
-    /* margin: 1rem;
-    padding: 1rem;
-    background-color: var(--color4);
-    color: var(--color5);
-    margin-top: 2rem;
-  } */
 
   .about {
     padding-top: 1.3rem;
@@ -276,7 +209,7 @@
     max-width: 400px;
   }
 
-.pictures{
+/* .pictures{
     display: grid;
     grid-gap: 3px;
     justify-items: center;
@@ -289,71 +222,101 @@ img {
     min-height: 50px;
     filter: blur(0em);
     transition: filter 1s;
-}
+} */
 
-/* join page */
-  
-#joinPage {
+/* directory */
+
+/* .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+} */
+
+.buttons {
   display: block;
+  justify-content: center;
+  text-align: center;
 }
-
-#joinPage form fieldset {
-  margin: 1em;
+#grid, #list {
+  font-size: 20px;
+  padding: 15px;
+  color: #ffffff;
+  background: #031602a7;
   border-radius: 10px;
-  border: 1px solid var(--color4);
-  max-width: 30rem;
-}
-form legend {
-  font-size: 1.2rem;
-  padding: 0.2em 0.4em;
+  border: 1px outset #03370f;
 }
 
-form label.top {
+#grid:hover, #list:hover {
+  box-shadow: 0px 0px 5px 5px #4e6850;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(119, 138, 118);
+  color: #e4ede4;
+  margin: auto;
+}
+
+.grid section {
+  flex-direction: column;
+  text-align: center;
+  max-width: 400px;
+  height: 300px;
+  background-color: #0f3412a7;
+  padding: 5px;
+  margin: 5px;
+}
+
+.grid section img {
+  max-width: 150px;
+  margin-top: 10px;
+}
+
+.grid section h2 {
+  font-size: 15px;
+  margin: 10px;
+}
+
+.grid section h3,h4,h5,h6,p {
+  font-size: 10px;
+  margin: 15px;
+}
+
+.list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(161, 155, 155);
+}
+.list section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: left;
+  margin: 5px 5px;
+  text-align: left;
+  padding: 5px;
+  background-color: #16431ca7;
+  color: #f2f2f2;
+  max-height: 300px;
+}
+
+.list section img {
+  max-width: 100px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.list section h2,h3,h5, p {
   display: block;
-  padding-bottom: 0.8rem;
-  max-width: 100%;
-
-  font-weight: 600;
 }
 
-form label.top input,
-textarea {
-  display: block;
-  border-radius: 5px;
-  border: 1px solid var(--color4);
-  padding: 0.75rem;
-  margin: 0;
-  width: 100%;
-  max-width: 20rem;
+.list section p{
+  font-weight: bold;
 }
-
-form label.sbs {
-  display: block;
-  padding: 0.75rem 0;
-  margin: 0.2em;
-  font-weight: 600;
-}
-form label.sbs input[type="radio"] {
-  margin: 0 0.5em;
-}
-
-#btnJoin {
-  background-color: var(--color6);
-  color: var(--color5);
-  padding: 0.6em;
-  border-radius: 20px;
-  font-size: 1.5rem;
-  margin: auto 0.5em 1em 0.5em;
-  width: 96%;
-  max-width: 20rem;
-}
-
-form label.top input:required {
-  border-left: 4px solid var(--color6);
-}
-form label.top input:required:valid {
-  border: 1px solid var(--color4);
-}
-#joinPage .membership {
-  display: none;
+.grid section p{
+  font-weight: bold;
 }

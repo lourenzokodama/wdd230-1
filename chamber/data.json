@@ -1,0 +1,85 @@
+{
+    "businesses": [
+        {
+            "name": "Brightwood" ,
+            "address": "888 1st Ave" ,
+            "phoneNumber": "541-280-1715" ,
+            "websiteURL": "" ,
+            "image": "images/1.webp" ,
+            "membershipLevel": "Gold" ,
+            "email": "info@brightwood.org"
+        },
+        {
+            "name": "J-MAX" ,
+            "address": "60811 J St." ,
+            "phoneNumber": "541-208-9944" ,
+            "websiteURL": "" ,
+            "image": "images/2.webp" ,
+            "membershipLevel": "Gold" ,
+            "email": "j@jmax.com"
+        },
+        {
+            "name": "Humane Society" ,
+            "address": "123 Theo Way" ,
+            "phoneNumber": "541-444-1976" ,
+            "websiteURL": "" ,
+            "image": "images/3.webp" ,
+            "membershipLevel": "Gold" ,
+            "email": "info@humanesociety.org"
+        },
+        {
+            "name": "US Cellular" ,
+            "address": "620 Hwy 97" ,
+            "phoneNumber": "541-314-2232" ,
+            "websiteURL": "" ,
+            "image": "images/4.webp" ,
+            "membershipLevel": "Silver" ,
+            "email": "annat@uscellular.com"
+        },
+        {
+            "name": "Black Bear" ,
+            "address": "17 S Hwy 97" ,
+            "phoneNumber": "541-587-1961" ,
+            "websiteURL": "" ,
+            "image": "images/5.webp" ,
+            "membershipLevel": "Silver" ,
+            "email": "blackbear@hotmail.com"
+        },
+        {
+            "name": "St. Charles" ,
+            "address": "531 Medical Way" ,
+            "phoneNumber": "541-208-1799" ,
+            "websiteURL": "" ,
+            "image": "images/6.png" ,
+            "membershipLevel": "Silver" ,
+            "email": "support@stcharles.org"
+        },
+        {
+            "name": "Cricket" ,
+            "address": "54 Hwy 97" ,
+            "phoneNumber": "541-330-5864" ,
+            "websiteURL": "" ,
+            "image": "images/7.webp" ,
+            "membershipLevel": "Bronze" ,
+            "email": "joem@cricketwireless.com"
+        },
+        {
+            "name": "Atlas Music" ,
+            "address": "123 Short Ave." ,
+            "phoneNumber": "541-390-9693" ,
+            "websiteURL": "" ,
+            "image": "images/8.jpg" ,
+            "membershipLevel": "Bronze" ,
+            "email": "sean@atlasmusic.org"
+        },
+        {
+            "name": "Eagle Bakery" ,
+            "address": "5445 Court Loop" ,
+            "phoneNumber": "541-280-7174" ,
+            "websiteURL": "" ,
+            "image": "images/9.jpg" ,
+            "membershipLevel": "Bronze" ,
+            "email": "N/A"
+        }
+    ]
+}

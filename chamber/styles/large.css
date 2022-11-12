@@ -31,19 +31,16 @@
   }
   nav ul#primaryNav {
     display: flex;
-    justify-content: center; /*center; or flex-end for right aligned*/
+    justify-content: center;
   }
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.4);
 
     padding: 0.5rem 1rem;
-    background-color: var(--color2); /*how does this know what color2 is?*/
+    background-color: var(--color2); 
   }
 
-  main {
-    /* grid-template-columns: 1fr 2fr 1fr; */
-  }
   .event {
     grid-column: 1;
   }
@@ -81,48 +78,16 @@
     flex-basis: 25%;
     text-align: left;
   }
-  #last-seperator {
+
+  /* directory  */
+  
+  .list section h2 {
     display: block;
+    font-size: 15px;
   }
-  .main-image {
-    /* min-width: 800px; */
-    /* max-width: 800px;  */
-  }
-  .event-image {
-    max-width: auto;
-    object-fit: fill;
-  }
-  .hero {
-    object-fit:cover;
-    height: 100%;
-    width: 100%;
-  } 
-  .discover {
-    grid-column: 1;
-    grid-row: 2;
-    align-items: center;
-  }
-  .discover:hover {
-    filter: blur(0.1em);
-  }
-  .placeholder {
-    text-align: center;
-  }
-
-   /* join page  */
-
-   #joinPage form fieldset {
-    max-width: 200rem;
-  }
-  #joinPage .memberLevel {
-    display: flex;
-  }
-  #joinPage .membership {
-    display: inline;
-  }
-  #joinPage .memberLevel label.sbs {
-    width: 10rem;
-    display: inline-block;
+  .list section h4,h5,h6,p {
+    display: block;
+    font-size: 14px;
   }
   
 }
