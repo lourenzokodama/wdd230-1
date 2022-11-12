@@ -1,4 +1,4 @@
-const requestURL = 'https://notbitcoinceo.github.io/WDD230/chamber/data.json';
+const requestURL = 'https://notbitcoinceo.github.io/wdd230/chamber/data.json';
 const cards = document.querySelector('.grid');
 
 fetch('data.json')
