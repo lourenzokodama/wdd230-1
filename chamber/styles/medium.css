@@ -114,6 +114,44 @@
     .discover:hover {
       filter: blur(0.1em);
     }
+
+    /* directory */
+    div.cards section:hover {
+      box-shadow: 0px 0px 5px 5px #264827;
+    } 
+    
+    .list section {
+      flex-direction: row;
+    }
+    
+    .list section h2 {
+      display: block;
+      font-size: 13px;
+    
+    }
+    .list section p {
+      display: block;
+    
+    }
+    .list section img {
+      margin-top: 0px;
+      max-width: 70px;
+    }
+    .list section h4 {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .list section h3,h5,h6,p {
+      font-size: 12px;
+    }
+    .grid section h4 {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    
+    .grid section img {
+      max-height: 70px;
+    }
   }
 
 
