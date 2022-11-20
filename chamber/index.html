@@ -82,10 +82,17 @@
         <picture id="event-icon">
           <img class="event-image" src="images/weather.jpg" alt="icon of expected weather" />
         </picture>
-        <p id="general-class">Latest weather in Central Oregon</p>
-        <p>Current Temperature: <span id="temp"></span></p>
-        <p>Wind Speed: <span id="speed"></span></p>
-        <p>Wind Chill: <span id="chill"></span></p>
+        <p>The current temperature in Bend, Oregon is <span id="current-temp"></span> &deg;F</p>
+        <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+        </figure> 
+          <p>Wind Speed:
+            <span id="wind-speed"></span>
+          </p>
+          <p>Wind Chill:
+            <span id="feels-like"></span>
+          </p>  
       </div>
       <div class="news">News
         <h3>Event</h3>
@@ -109,20 +116,6 @@
         </picture>
         <p id="general-class">Guess what's happening now?</p>
         </div>
-          
-
-        <!-- <div class="container blue">
-          <img src="https://unsplash.it/125/243" class="left-img">
-          
-          <div class="note-container">
-            <div class="title-txt">Do something this summer</div>
-            <div class="icon-container">
-              <i class="fa fa-pencil icons"></i>
-              <i class="fa fa-calendar-o icons"></i>
-              <i class="fa fa-trash-o icons"></i>
-            </div>
-          </div>
-        </div> -->
 
         <div>
           <h3>Spotlight 2</h3>
@@ -137,6 +130,7 @@
           <img class="event-image" src="images/trees.png" alt="icon of expected weather" />
         </picture>
         <p id="general-class">Get updates</p>
+        
         </div>
       </div>
     </main>
@@ -162,8 +156,8 @@
         <div class="seperator">|</div>
         <label>Last Modification: <a id= "updateDate"></a></label>
 
+        <script src="scripts/weather.js"></script>
         <script src="scripts/scripts.js"></script>
-        <script src="scripts/windchill.js"></script>
         <script src="scripts/lazyloading.js"></script>
       </div>
     </footer>
