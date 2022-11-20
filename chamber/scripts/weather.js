@@ -34,6 +34,7 @@ function windChill(current_temperature, wind_speed){
   console.log(windChillCalculator);
 
   return windChillCalculator;
+  
 }
 
 function  displayResults(weatherData) {
@@ -46,6 +47,9 @@ function  displayResults(weatherData) {
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = desc;
+
+  wind_speed.textContent = data.wind.speed;
+  wind_chill.textContent= windChill(data.main.temp, data.wind.speed);
 }
 
 
